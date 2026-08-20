@@ -1,0 +1,21 @@
+# Secrets — never commit real credentials
+firmware/esp8266_nodemcu/secrets.h
+
+# Arduino IDE
+*.hex
+*.elf
+build/
+
+# Flutter / Dart (if mobile-app is added later)
+mobile-app/.dart_tool/
+mobile-app/.packages
+mobile-app/build/
+mobile-app/*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
